@@ -132,7 +132,8 @@ html {
     color: orange;
     font-weight: bold;
     cursor: pointer;
-    margin-left: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .language button:hover {
@@ -170,4 +171,31 @@ html {
     color: white;
     font-size: 16px;
     margin-top: 12px;
+}
+
+/* Mobile version */
+@media (max-width: 768px) {
+    .hero {
+        background-image: url("images/background-mobile.png") !important;
+        background-position: center top;
+    }
+
+    .content {
+        bottom: 40px;
+        width: 90%;
+    }
+
+    .content h1 {
+        font-size: 42px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+}
+
+.lang-separator {
+    color: #ffd700;
+    font-weight: bold;
+    margin: 0 4px;
 }
