@@ -177,7 +177,7 @@ html {
 @media (max-width: 768px) {
     .hero {
         background-image: url("images/background-mobile.png") !important;
-        background-position: center top;
+        background-position: center center;
     }
 
     .content {
